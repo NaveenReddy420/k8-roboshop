@@ -24,7 +24,7 @@ spec:
     tier: db
   ports:
     - protocol: TCP
-      port: 27017
+      port: 80
       targetPort: 27017
 
 #We are noot going to exposing this mongodb to outside world, so we need to use ClusteIP service. Since it is the default one no need to mention.
